@@ -1,0 +1,38 @@
+{
+  "name": "wp-starter-theme",
+  "version": "1.1.0",
+  "author": "Evgeniy Mezhevykh",
+  "license": "MIT",
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mezhevykh223571/wp-starter-theme"
+  },
+  "dependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/preset-env": "^7.1.0",
+    "@mezhevykh/reset-styles": "^1.0.3",
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-babel": "^8.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-cssmin": "^0.2.0",
+    "gulp-imagemin": "^5.0.3",
+    "gulp-plumber": "^1.2.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.1",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-terser": "^1.1.5",
+    "run-sequence": "^2.2.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "sass",
+    "gulp",
+    "npm"
+  ]
+}

@@ -1,7 +1,7 @@
 <?php
 function global_scripts() {
   wp_enqueue_style('main-style', get_stylesheet_directory_uri() . '/assets/css/style.min.css', []);
-  wp_enqueue_script('bundle', get_template_directory_uri() . '/assets/js/main.min.js', ['jquery']);
+  wp_enqueue_script('main-script', get_template_directory_uri() . '/assets/js/main.min.js', ['jquery']);
 }
 
 add_action('wp_enqueue_scripts', 'global_scripts');
@@ -30,4 +30,6 @@ function cc_mime_types($mimes) {
 
 add_filter('upload_mimes', 'cc_mime_types');
 
-require_once(__DIR__ . '/core/core.php');
+require_once(get_template_directory() . '/core/core.php');
+
+require_once(get_template_directory() . '/inc/template-tags.php');
